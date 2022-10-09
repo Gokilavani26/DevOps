@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <!--Heading-->
+    <head>
+        <title>EVENT REGISTRATION FORM</title>
+    </head>
+
+    <!--Body-->
+    <body bgcolor="pink">
+        <h1><center>EVENT REGISTRATION FORM</center></h1>
+        <form>
+            <!--Label-->
+           <label><h3>Please fill all the field without fail. </h3></label><br><br>
+           <!--Textbox-->
+           Name:  <input type="text" id="name"value=""placeholder="Enter name..."><br><br>
+           Age:  <input type="number" id="name"value="" size="4"><br><br>
+           Email:  <input type="text" id="name" value="" placeholder="name@domain.com"><br><br>
+           Phone Number:  <input type="text" id="name"value=""><br><br>
+           <!--Text Area-->
+           Address:<br><br>
+           <textarea id="address" name="address" rows="6" cols="50" placeholder="Enter address here..."></textarea><br><br>
+           <!--Radio-->
+           Event:<br>
+           <input type="radio" id="male" name="type" value="male" checked="checked">
+            <label> WEDDING</label><br>
+            <input type="radio" id="female" name="type" value="female">
+            <label> BIRTHDAY PARTY</label><br>
+            <input type="radio" id="other" name="type" value="other">
+            <label> GRADUATION CEREMONY</label><br>
+           <input type="radio" id="Two" name="type" value="Two">
+            <label>SURPRISE EVENT</label><br>
+            <input type="radio" id="Three" name="type" value="Three">
+            <label>BABY SHOWER</label><br>
+            <input type="radio" id="Four" name="type" value="Four">
+            <label> OTHER</label>
+            <br></br>
+            Date: <br>
+            <input type="date">
+           <!--Check box-->
+            <br><br>
+            Aminities:<br>
+           <input type="checkbox" id="Attach" name="fav_language" value="Attach" checked="checked">
+            <label> Catering</label>
+            <input type="checkbox" id="Heater" name="fav_language" value="Heater">
+            <label> Make-up</label>
+            <input type="checkbox" id="ac" name="fav_language" value="ac">
+            <label> Decorations</label>
+           <br><br>
+            <!--Option-->
+            Food Preferred: 
+            <select id="food" name="food">
+                <option value="veg">Veg</option>
+                <option value="non-veg">Non-Veg</option>
+              </select>
+            <br><br>
+
+            <!--Button-->
+            <button type="button">SUBMIT</button><button type="button">clear</button>
+
+        </form>
+    </body>
+</html>
